@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Budget Buddy</string>
+
+    <string name="launch_activity_title">Welcome to Budget Buddy</string>
+    <string name="launch_activity_subtitle">To create your budget, click the button below</string>
+    <string name="launch_activity_button">Create your budget</string>
+
+    <string name="createbucket_done">Done</string>
+    <string name="createbucket_addcategory">Add Category</string>
+    <string name="createbucket_budget">Budget</string>
+    <string name="createbucket_budgetedexpenses">Budgeted Expenses</string>
+    <string name="createbucket_income">Income</string>
+    <string name="createbucket_investment">Investment</string>
+    <string name="createbucket_shopping">Shopping</string>
+    <string name="createbucket_payments">Payments</string>
+    <string name="createbucket_debts">Debts</string>
+    <string name="createbucket_education">Education</string>
+    <string name="createbucket_entertainment">Entertainment</string>
+    <string name="createbucket_bills">Bills</string>
+    <string name="createbucket_rent_mortgage">Rent/Mortgage</string>
+    <string name="createbucket_kitchen">Kitchen</string>
+    <string name="createbucket_transportation">Transportation</string>
+
+    <string name="main_addincome">Add Income</string>
+    <string name="main_addestimate">Add Estimate</string>
+    <string name="main_addexpense">Add Expense</string>
+    <string name="main_total">Total</string>
+    <string name="main_left">Left</string>
+    <string name="main_ofincomespent">% of income spent</string>
+
+    <string name="dialog_addcategory_title">Add Category</string>
+    <string name="dialog_addcategory_button">Add</string>
+    <string name="dialog_addcategory_ethint">Category Name</string>
+
+    <string name="addexpense_title">Add Expense</string>
+    <string name="addexpense_category">Category</string>
+    <string name="addexpense_amount">Amount</string>
+    <string name="addexpense_save">Save</string>
+    <string name="addexpense_cancel">Cancel</string>
+
+    <string name="addestimate_title">Add Estimate</string>
+    <string name="addestimate_category">Category</string>
+    <string name="addestimate_amount">Amount</string>
+    <string name="addestimate_save">Save</string>
+    <string name="addestimate_cancel">Cancel</string>
+
+    <string name="addincome_title">Add Income</string>
+    <string name="addincome_amount">Amount</string>
+    <string name="addincome_save">Save</string>
+    <string name="addincome_cancel">Cancel</string>
+
+    <string name="error_income">Total of estimated expenses can"'"t be bigger than total income</string>
+
+    <string name="doubledot">:</string>
+    <string name="dolar">$</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/launch_walleticon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/wallet"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/launch_moneyicon" />
+
+            <ImageView
+                android:id="@+id/launch_paymentsicon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/payments"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/launch_moneyicon" />
+
+            <ImageView
+                android:id="@+id/launch_moneyicon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/money"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                style="@style/Theme.TextView.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/launch_activity_title" />
+
+            <TextView
+                style="@style/Theme.TextView.SubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="@string/launch_activity_subtitle" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Theme.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="createYourBudget"
+                android:text="@string/launch_activity_button" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/launch_coinsicon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/coins"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/launch_shoppingicon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/shopping"
+                app:layout_constraintBottom_toTopOf="@+id/launch_coinsicon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/launch_plannericon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/planner"
+                app:layout_constraintBottom_toTopOf="@+id/launch_coinsicon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>
